@@ -1,0 +1,16 @@
+.app {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-size: calc(10px + 2vmin);
+	justify-content: center;
+	text-align: center;
+}
+
+.app ul {
+	list-style: none;
+}
+
+.app li:not(:last-child) {
+	margin-bottom: 1rem;
+}
